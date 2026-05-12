@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Login - SkyHost Solutions</title>
+  <title>Login - GardenHost</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
@@ -12,10 +12,10 @@
 <body class="bg-slate-50 flex items-center justify-center min-h-screen">
   <div class="w-full max-w-md p-8">
     <div class="text-center mb-10">
-      <div class="inline-flex items-center justify-center w-16 h-16 bg-blue-600 rounded-xl mb-4 shadow-lg shadow-blue-200">
+      <div class="inline-flex items-center justify-center w-16 h-16 bg-green-700 rounded-xl mb-4 shadow-lg shadow-green-200">
         <i class="fas fa-server text-white text-2xl"></i>
       </div>
-      <h1 class="text-2xl font-bold text-slate-800">SkyHost</h1>
+      <h1 class="text-2xl font-bold text-slate-800">GardenHost</h1>
       <p class="text-slate-500">Kelola infrastruktur cloud Anda</p>
     </div>
 
@@ -42,15 +42,15 @@
             <input id="password" name="password" type="password" required class="w-full pl-10 pr-4 py-2.5 border border-slate-200 rounded-lg" placeholder="••••••••">
           </div>
         </div>
-        <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 rounded-lg">Masuk ke Dashboard</button>
+        <button type="submit" class="w-full bg-green-700 hover:bg-green-800 text-white font-bold py-3 rounded-lg">Masuk ke Dashboard</button>
       </form>
 
       <div class="mt-8 pt-6 border-t border-slate-100 text-center">
-        <p class="text-sm text-slate-600">Belum punya akun? <a href="/register.php" class="font-bold text-blue-600 hover:underline">Daftar Sekarang</a></p>
+        <p class="text-sm text-slate-600">Belum punya akun? <a href="/register.php" class="font-bold text-green-700 hover:underline">Daftar Sekarang</a></p>
       </div>
     </div>
 
-    <div class="mt-8 text-center text-xs text-slate-400">&copy; 2026 SkyHost Solutions.</div>
+    <div class="mt-8 text-center text-xs text-slate-400">&copy; 2026 GardenHost.</div>
   </div>
 </body>
 </html>
